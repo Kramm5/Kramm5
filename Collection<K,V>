@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class GenericCollectionExample {
+    public static void main(String[] args) {
+        // Create a generic collection of strings
+        Collection<String> stringCollection = new ArrayList<>();
+
+        // Add elements to the collection
+        stringCollection.add("Hello miss sorry karon rako ka himo sa ge pa asign nimo lisud way laptop");
+        stringCollection.add("Selpon rako nag coding , Apps name Jvdroid");
+
+        // Iterate through the collection
+        for (String element : stringCollection) {
+            System.out.println(element);
+        }
+    }
+}
